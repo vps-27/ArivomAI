@@ -248,6 +248,10 @@ section[data-testid="stSidebar"] .stButton>button p{font-size:14.5px;line-height
 [class*="st-key-panel"]{background:var(--glass);border:1px solid rgba(255,255,255,.9);border-radius:28px;padding:26px 28px!important;
   box-shadow:var(--shadow-lg);backdrop-filter:blur(10px)}
 .stTextInput input{border-radius:16px!important;border:1.5px solid #d6e0cf!important;padding:14px 18px!important;background:#fff!important;font-size:15px!important;color:var(--ink)!important}
+.stTextInput input::placeholder {
+    color: #6a7b71 !important;
+    opacity: 1 !important;
+}
 .stTextInput input:focus{border-color:#2f8a66!important;box-shadow:0 0 0 4px rgba(47,138,102,.15)!important}
 .stTextInput label,.stAudioInput label,.stSelectbox label,.stSelectbox p{font-weight:700!important;color:var(--emerald-900)!important}
 div[data-baseweb="select"]>div{border-radius:16px!important;border:1.5px solid #d6e0cf!important;min-height:50px;background:#fff!important}
